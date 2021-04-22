@@ -100,3 +100,20 @@
       ```
     - 셀(cell)이라고 부르는 단위로 소스 코드를 작성하고 실행한다.
     - 결과를 확인하면서 소스 코드를 작성할 수 있으므로 초보자도 사용하기 쉬운 도구이다.
+- **Leaderboard(LB)**
+  - 캐글의 순위표이다.
+  - Public Leaderboard(Public LB)
+    ```
+    Competition 개최 기간 중에 확인할 수 있는 리더보드이다.
+    테스트 데이터 일부로 점수를 낸 리더보드이다.
+    최종 순위와는 무관하다.
+    ```
+  - Private Leaderboard(Private LB)
+    ```
+    최종 순위가 되는 리더보드이다.
+    Public LB 점수에 사용되는 테스트 데이터와는 다른 테스트 데이터로 계산되며, Competition 종료 후에만 확인할 수 있다.
+    Private LB 점수에 사용되는 데이터의 점수가 높은 모델을 만들어야 한다.
+    ```
+  - Public LB와 Private LB에 사용되는 테스트 데이터의 비율은 Competition에 따라 다르다.
+  - 진행되고 있는 Competition의 경우, 자신이 제출했던 목록(My Submissions)에서 최종 순위에 반영할 Submit을 2개까지 선택할 수 있으며, 선택된 Submit만 최종 순위 계산(Private LB)에 사용된다.
+  
